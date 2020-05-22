@@ -9,6 +9,6 @@ public:
 	void set();
 private:
 	int i[5];
-	//int max=0;
+	int max=0;
 };
 

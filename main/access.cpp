@@ -2,15 +2,13 @@
 #include <iostream>
 int access::compare()
 {
-	int index,temp,max;
+	int index;
 	for(index=0;index<5;index++)
-		if (i[index] > i[index + 1])
+		if (i[index] > max)
 		{
-			temp = i[index];
-			i[index] = i[index + 1];
-			i[index + 1] = temp;
+			max = i[index];
 		}
-	max = i[4];
+	
 	return max;
 	//return i[4];
 }
